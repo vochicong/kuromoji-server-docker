@@ -1,0 +1,3 @@
+[submodule "kuromoji-server"]
+	path = kuromoji-server
+	url = https://github.com/atilika/kuromoji-server

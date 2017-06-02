@@ -1,0 +1,10 @@
+version: '2'
+services:
+  kuromoji-server:
+    image: vochicong/kuromoji-server
+    build: .
+    ports:
+      - "8080:8080"
+    command: 
+      - mvn
+      - jetty:run
